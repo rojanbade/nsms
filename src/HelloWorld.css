@@ -1,0 +1,28 @@
+.helloContainer {
+  width: 600px;
+  background-color: tomato;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  column-gap: 40px;
+}
